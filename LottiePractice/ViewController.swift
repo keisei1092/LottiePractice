@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+		let animationView = LOTAnimationView(name: "PinJump")
+		animationView?.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
+		animationView?.contentMode = .scaleAspectFit
+		self.view.addSubview(animationView!)
+
+		animationView?.play(completion: { (finished) in
+			// Do Something
+		})
 	}
 
 	override func didReceiveMemoryWarning() {

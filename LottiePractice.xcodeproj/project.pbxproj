@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126E1B5D52A4CD77C748E8A7 /* Pods_LottiePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FECE3B953335BF213E3E67 /* Pods_LottiePractice.framework */; };
+		48578F42B1B9E508209686D4 /* Pods_LottiePracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BD10A03F3987B932ECC249 /* Pods_LottiePracticeTests.framework */; };
+		6C11B6DB4E2C5CC4A87E3890 /* Pods_LottiePracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1454E22C9485F05A98B35C3F /* Pods_LottiePracticeUITests.framework */; };
 		F3550AEA1E6FE29100D51785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3550AE91E6FE29100D51785 /* AppDelegate.swift */; };
 		F3550AEC1E6FE29100D51785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3550AEB1E6FE29100D51785 /* ViewController.swift */; };
 		F3550AEF1E6FE29100D51785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3550AED1E6FE29100D51785 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		F3550AF41E6FE29100D51785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3550AF21E6FE29100D51785 /* LaunchScreen.storyboard */; };
 		F3550AFF1E6FE29100D51785 /* LottiePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3550AFE1E6FE29100D51785 /* LottiePracticeTests.swift */; };
 		F3550B0A1E6FE29100D51785 /* LottiePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3550B091E6FE29100D51785 /* LottiePracticeUITests.swift */; };
+		F3550B181E6FE83B00D51785 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = F3550B171E6FE83B00D51785 /* PinJump.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1454E22C9485F05A98B35C3F /* Pods_LottiePracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottiePracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AD64215BD31E6ACDACF1E9 /* Pods-LottiePracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePracticeTests/Pods-LottiePracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3549612134FEC6E99B41C1C8 /* Pods-LottiePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePractice/Pods-LottiePractice.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC17ED951C43FE182403D2B /* Pods-LottiePracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePracticeUITests/Pods-LottiePracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CB28386697B78905D72201D /* Pods-LottiePracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePracticeUITests/Pods-LottiePracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA486602616D1DDE960AFBB /* Pods-LottiePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePractice/Pods-LottiePractice.release.xcconfig"; sourceTree = "<group>"; };
+		EF3D4F94ED7C103257500560 /* Pods-LottiePracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiePracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottiePracticeTests/Pods-LottiePracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3550AE61E6FE29100D51785 /* LottiePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottiePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3550AE91E6FE29100D51785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3550AEB1E6FE29100D51785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		F3550B051E6FE29100D51785 /* LottiePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottiePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3550B091E6FE29100D51785 /* LottiePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottiePracticeUITests.swift; sourceTree = "<group>"; };
 		F3550B0B1E6FE29100D51785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3550B171E6FE83B00D51785 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		F4BD10A03F3987B932ECC249 /* Pods_LottiePracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottiePracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FECE3B953335BF213E3E67 /* Pods_LottiePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottiePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126E1B5D52A4CD77C748E8A7 /* Pods_LottiePractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48578F42B1B9E508209686D4 /* Pods_LottiePracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C11B6DB4E2C5CC4A87E3890 /* Pods_LottiePracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2631202E24E053EC4200368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3549612134FEC6E99B41C1C8 /* Pods-LottiePractice.debug.xcconfig */,
+				CBA486602616D1DDE960AFBB /* Pods-LottiePractice.release.xcconfig */,
+				EF3D4F94ED7C103257500560 /* Pods-LottiePracticeTests.debug.xcconfig */,
+				20AD64215BD31E6ACDACF1E9 /* Pods-LottiePracticeTests.release.xcconfig */,
+				9CB28386697B78905D72201D /* Pods-LottiePracticeUITests.debug.xcconfig */,
+				4CC17ED951C43FE182403D2B /* Pods-LottiePracticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D12DDBFE8275BC0246DA75FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FECE3B953335BF213E3E67 /* Pods_LottiePractice.framework */,
+				F4BD10A03F3987B932ECC249 /* Pods_LottiePracticeTests.framework */,
+				1454E22C9485F05A98B35C3F /* Pods_LottiePracticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3550ADD1E6FE29100D51785 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				F3550AFD1E6FE29100D51785 /* LottiePracticeTests */,
 				F3550B081E6FE29100D51785 /* LottiePracticeUITests */,
 				F3550AE71E6FE29100D51785 /* Products */,
+				B2631202E24E053EC4200368 /* Pods */,
+				D12DDBFE8275BC0246DA75FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				F3550AF01E6FE29100D51785 /* Assets.xcassets */,
 				F3550AF21E6FE29100D51785 /* LaunchScreen.storyboard */,
 				F3550AF51E6FE29100D51785 /* Info.plist */,
+				F3550B171E6FE83B00D51785 /* PinJump.json */,
 			);
 			path = LottiePractice;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3550B0E1E6FE29100D51785 /* Build configuration list for PBXNativeTarget "LottiePractice" */;
 			buildPhases = (
+				EC0262734E9C2391C90ACC29 /* [CP] Check Pods Manifest.lock */,
 				F3550AE21E6FE29100D51785 /* Sources */,
 				F3550AE31E6FE29100D51785 /* Frameworks */,
 				F3550AE41E6FE29100D51785 /* Resources */,
+				AB7018B7602FAB5F10016D8E /* [CP] Embed Pods Frameworks */,
+				D49C5386B2E4919441C0DCFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3550B111E6FE29100D51785 /* Build configuration list for PBXNativeTarget "LottiePracticeTests" */;
 			buildPhases = (
+				644CEA794B79F99180148ACA /* [CP] Check Pods Manifest.lock */,
 				F3550AF61E6FE29100D51785 /* Sources */,
 				F3550AF71E6FE29100D51785 /* Frameworks */,
 				F3550AF81E6FE29100D51785 /* Resources */,
+				0D315A5D8D1EE7E739C59B2F /* [CP] Embed Pods Frameworks */,
+				BF8CCBCC05CE99DB03610AD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3550B141E6FE29100D51785 /* Build configuration list for PBXNativeTarget "LottiePracticeUITests" */;
 			buildPhases = (
+				33A76FA8FD6F6F891060A73D /* [CP] Check Pods Manifest.lock */,
 				F3550B011E6FE29100D51785 /* Sources */,
 				F3550B021E6FE29100D51785 /* Frameworks */,
 				F3550B031E6FE29100D51785 /* Resources */,
+				7A3A845159ADA1ABFA98BBF1 /* [CP] Embed Pods Frameworks */,
+				0F62D12F5B3B5517AD227577 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +290,7 @@
 				F3550AF41E6FE29100D51785 /* LaunchScreen.storyboard in Resources */,
 				F3550AF11E6FE29100D51785 /* Assets.xcassets in Resources */,
 				F3550AEF1E6FE29100D51785 /* Main.storyboard in Resources */,
+				F3550B181E6FE83B00D51785 /* PinJump.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D315A5D8D1EE7E739C59B2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePracticeTests/Pods-LottiePracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F62D12F5B3B5517AD227577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePracticeUITests/Pods-LottiePracticeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A76FA8FD6F6F891060A73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		644CEA794B79F99180148ACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3A845159ADA1ABFA98BBF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePracticeUITests/Pods-LottiePracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7018B7602FAB5F10016D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePractice/Pods-LottiePractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8CCBCC05CE99DB03610AD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePracticeTests/Pods-LottiePracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D49C5386B2E4919441C0DCFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottiePractice/Pods-LottiePractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0262734E9C2391C90ACC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3550AE21E6FE29100D51785 /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		F3550B0F1E6FE29100D51785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3549612134FEC6E99B41C1C8 /* Pods-LottiePractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZLP777QDS4;
@@ -426,6 +618,7 @@
 		};
 		F3550B101E6FE29100D51785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA486602616D1DDE960AFBB /* Pods-LottiePractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZLP777QDS4;
@@ -439,6 +632,7 @@
 		};
 		F3550B121E6FE29100D51785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3D4F94ED7C103257500560 /* Pods-LottiePracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		F3550B131E6FE29100D51785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AD64215BD31E6ACDACF1E9 /* Pods-LottiePracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		F3550B151E6FE29100D51785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB28386697B78905D72201D /* Pods-LottiePracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZLP777QDS4;
@@ -483,6 +679,7 @@
 		};
 		F3550B161E6FE29100D51785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC17ED951C43FE182403D2B /* Pods-LottiePracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZLP777QDS4;
@@ -514,6 +711,7 @@
 				F3550B101E6FE29100D51785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3550B111E6FE29100D51785 /* Build configuration list for PBXNativeTarget "LottiePracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				F3550B131E6FE29100D51785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3550B141E6FE29100D51785 /* Build configuration list for PBXNativeTarget "LottiePracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				F3550B161E6FE29100D51785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
